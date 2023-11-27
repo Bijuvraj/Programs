@@ -1,9 +1,9 @@
 package mypackage;
 
-public class Multi2 {
+public class Multi2 extends Multi {
 	public void an()
 	{
-		System.out.println("is High Level");
+		System.out.print(" is High Level");
 	}
 
 }
