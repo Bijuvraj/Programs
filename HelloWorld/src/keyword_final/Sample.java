@@ -5,7 +5,7 @@ public class Sample {
 	public void as()
 	{
 		//final int a = 23;
-		int a = 10;
+		a = 10;
 		System.out.println(a);
 	}
 
