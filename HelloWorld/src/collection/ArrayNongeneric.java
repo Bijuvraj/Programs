@@ -13,8 +13,10 @@ public class ArrayNongeneric {
 		n.add(90);
 		//n.remove(1);
 		//int a = n.size();
-		n.add(2,"biju");
+		//n.add(2,"biju");
 		//System.out.println(a);
+		//n.add(5,'B');
+		//n.addFirst(900.65d);
 		System.out.println(n);
 		System.out.println(n.contains("Hi"));
 	}

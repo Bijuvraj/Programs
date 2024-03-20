@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Honda {
 
@@ -17,6 +18,11 @@ public class Honda {
 		{
 			System.out.println(a);
 		}
+		/* Iterator i = n.iterator();
+		while(i.hasNext())
+		{
+			System.out.println(i.next());
+		} */
 	}
 
 }

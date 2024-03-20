@@ -1,14 +1,14 @@
 package encapsulation;
 
-public class SampleA{
+public class SampleA extends Sample{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Sample obj = new Sample();
+		SampleA obj = new SampleA();
 		obj.setName("Biju");
 		System.out.println("Name : "+obj.getName());
 		obj.setAge(26);
-		System.out.println(obj.getAge());
+		System.out.println("Age : "+obj.getAge());
 	}
 
 }
